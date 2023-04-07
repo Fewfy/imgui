@@ -17,7 +17,9 @@ project "ImGui"
         "imstb_truetype.h",
         "imgui_demo.cpp",
         "imgui_tables.cpp",
-        "imgui_widgets.cpp"
+        "imgui_widgets.cpp",
+        "backends/imgui_impl_glfw.h",
+        "backends/imgui_impl_glfw.cpp"
     }
 
     filter "system:windows"
